@@ -61,7 +61,7 @@ class TTTBoard(Board):
 
     def __repr__(self) -> str:
         return f"""{self.position[0]}|{self.position[1]}|{self.position[2]}
-        -----
-        {self.position[3]}|{self.position[4]}|{self.position[5]}
-        -----
-        {self.position[6]}|{self.position[7]}|{self.position[8]}"""
+-----
+{self.position[3]}|{self.position[4]}|{self.position[5]}
+-----
+{self.position[6]}|{self.position[7]}|{self.position[8]}"""
